@@ -1,0 +1,12 @@
+### GET All Categories
+GET http://localhost:8080/api/categories
+Accept: application/json
+
+### Create a new Category
+POST http://localhost:8080/api/categories
+Content-Type: application/json
+Accept: application/json
+
+{
+    "name": "Skin Care"
+}
